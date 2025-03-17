@@ -9,4 +9,5 @@ What else is needed? We need to fill the tank via a setFieldsDict. In order to s
 The 6DoF example is very handy in that it only needs a file with points in space and time and rotation angles around the axes. Here's where the fun starts.
 There is a Python library called 'fastf1'. It offers access to a database of Formula 1 data, we extract the fastest qualifying lap at the Austrian Grand Prix 2021. Verstappen's lap was approx. 63.72s,
 we have access to positional data too. From this we calculate the Euler angles, and the position itself will do as displacement data if we subtract the first position (this gives us (0 0 0) as our first
-position)
+position). Just to prove everything is correct, we can sum up the length of the vectors in our file, we get 4295.4396m, which is very close to the official track length of 4326m. The reason for the difference is,
+due to the calculation we have to drop the last value.

@@ -27,7 +27,7 @@ Let's take a brief look at an alpha.fuel result:
 
 ![alpha_water_t0 15s](https://github.com/user-attachments/assets/87ce285b-8470-4715-8771-4cdefea8e58f)
 
-So, what is the use of such a simulation? With it, we amy gather information about 
+So, what is the use of such a simulation? With it, we may gather information about 
 
 -) where to place pump inlets, 
 

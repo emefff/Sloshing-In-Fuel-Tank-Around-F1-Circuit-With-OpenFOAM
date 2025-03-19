@@ -21,12 +21,19 @@ disruptions of fuel supply would be the case. Additionally, they use 2-4 pumps i
 So, what is the use of such a simulation? With it, we can find out 
 
 -) where to place pump inlets, 
+
 -) forces on the hull of the tank, 
+
 -) amount of air/gas swirled into the fuel
+
 -) is a fuel/gas separator needed
+
 -) is a foam needed
+
 -) does the tank shape create any problems
+
 -) how does the fuel surface look like under certain accelerations (braking!)
+
 -) etc.
 
 The video shared is a demo, as the full simulation of the whole circuit is still running.

@@ -18,4 +18,18 @@ It is important to distinguish between these data and the actual track layout. T
 estimating the velocities from the data, and one of the problems is, that in between the first and second data point we get aroung 295km/h (right at start/finish of this qualifying lap). The initial state of the fuel in the tank is just 
 created with a setFields, the tank is approx. half filled. This immediately sends the fuel splashing around, as for the simulation in the first timestep, this represents a very large artificial acceleration (the first timeSteps don't matter either, they are always chosen to be very tiny). It is obvious right from the start, that such a simple fuel tank would not be usable in F1. In F1, tanks are filled with special foams to prevent this extreme sloshing and splashing. Otherwise, permanent 
 disruptions of fuel supply would be the case. Additionally, they use 2-4 pumps in the corners of the tank, these feed into an intermediate reservoir where the first high pressure pump is located. This pump never runs out of fuel, no matter the acceleration of the car. 
+So, what is the use of such a simulation? With it, we can find out 
+
+-) where to place pump inlets, 
+-) forces on the hull of the tank, 
+-) amount of air/gas swirled into the fuel
+-) is a fuel/gas separator needed
+-) is a foam needed
+-) does the tank shape create any problems
+-) how does the fuel surface look like under certain accelerations (braking!)
+-) etc.
+
+The video shared is a demo, as the full simulation of the whole circuit is still running.
+
+emefff@gmx.at
 

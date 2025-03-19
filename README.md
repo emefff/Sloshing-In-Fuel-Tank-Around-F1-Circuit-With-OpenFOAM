@@ -19,7 +19,7 @@ We plot the GPS data and verify everything is indeed correct (the z-axis is gros
 
 ![Bildschirmfoto vom 2025-03-19 14-34-45](https://github.com/user-attachments/assets/89c26e3a-03ce-4f6e-8352-2ec3a1892e5f)
 
-It is important to distinguish between these data and the actual track layout. The data just represents one single lap of one car, and there are many ways and techniques to around a cicuit very quickly. Running the Python program also allows for 
+It is important to distinguish between these data and the actual track layout. The data just represents one single lap of one car, and there are many ways and techniques to complete a lap very quickly. Running the Python program also allows for 
 estimating the velocities from the data, and one of the problems is, that in between the first and second data point we get aroung 295km/h (right at start/finish of this qualifying lap). The initial state of the fuel in the tank is just 
 created with a setFields, the tank is approx. half filled. This immediately sends the fuel splashing around, as for the simulation in the first timestep, this represents a very large artificial acceleration (the first timeSteps don't matter either, they are always chosen to be very tiny). It is obvious right from the start, that such a simple fuel tank would not be usable in F1. In F1, tanks are filled with special foams to prevent this extreme sloshing and splashing. Otherwise, permanent 
 disruptions of fuel supply would be the case. Additionally, they use 2-4 pumps in the corners of the tank, these feed into an intermediate reservoir where the first high pressure pump is located. This pump never runs out of fuel, no matter the acceleration of the car. 

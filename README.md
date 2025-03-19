@@ -15,7 +15,7 @@ The 6DoF example is very handy in that it only needs a file with points in space
 There is a Python library called 'fastf1'. It offers access to a database of Formula 1 data, we extract the fastest qualifying lap at the Austrian Grand Prix 2021. Verstappen's lap was approx. 63.72s,
 we have access to positional data too. From this we calculate the Euler angles, and the position itself will do as displacement data if we subtract the first position (this gives us (0 0 0) as our first
 position). Just to prove everything is correct, we can sum up the length of the vectors in our file, we get 4295.4396m, which is very close to the official track length of 4326m. Due to the calculation we have to drop the last value.
-From the data, we can plot the GPS data and verify everything is indeed correct (the z-axis is grossly exaggerated compared to the other two):
+We plot the GPS data and verify everything is indeed correct (the z-axis is grossly exaggerated compared to the other two):
 
 ![Bildschirmfoto vom 2025-03-19 14-34-45](https://github.com/user-attachments/assets/89c26e3a-03ce-4f6e-8352-2ec3a1892e5f)
 

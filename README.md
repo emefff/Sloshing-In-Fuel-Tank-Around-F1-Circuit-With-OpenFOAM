@@ -18,7 +18,12 @@ It is important to distinguish between these data and the actual track layout. T
 estimating the velocities from the data, and one of the problems is, that in between the first and second data point we get aroung 295km/h (right at start/finish of this qualifying lap). The initial state of the fuel in the tank is just 
 created with a setFields, the tank is approx. half filled. This immediately sends the fuel splashing around, as for the simulation in the first timestep, this represents a very large artificial acceleration (the first timeSteps don't matter either, they are always chosen to be very tiny). It is obvious right from the start, that such a simple fuel tank would not be usable in F1. In F1, tanks are filled with special foams to prevent this extreme sloshing and splashing. Otherwise, permanent 
 disruptions of fuel supply would be the case. Additionally, they use 2-4 pumps in the corners of the tank, these feed into an intermediate reservoir where the first high pressure pump is located. This pump never runs out of fuel, no matter the acceleration of the car. 
-So, what is the use of such a simulation? With it, we can find out 
+Let's take a brief look at an alpha.fuel result:
+![alpha_water_t0 15s](https://github.com/user-attachments/assets/87ce285b-8470-4715-8771-4cdefea8e58f)
+
+
+
+So, what is the use of such a simulation? With it, we amy gather information about 
 
 -) where to place pump inlets, 
 

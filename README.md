@@ -39,6 +39,8 @@ So, what is the use of such a simulation? With it, we may gather information abo
 
 -) is a foam needed
 
+-) where to put additional baffles
+
 -) does the tank shape create any problems
 
 -) how does the fuel surface look like under certain accelerations (braking!)

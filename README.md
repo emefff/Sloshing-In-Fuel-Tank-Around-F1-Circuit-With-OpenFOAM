@@ -10,7 +10,7 @@ The simulation is quite simple in terms of patches, we only have one patch, whic
 a createBafflesDict. We just have mesh properly. 
 What else is needed? We need to fill the tank via a setFieldsDict. In order to see the flow through the slots in the baffles, we chose a low amount of fuel of approx. 50%.
 The simulation is performed with a k-omega turbulent, multiphase (air and fuel) interFoam. 
-The 6DoF example is very handy in that it only needs a file with points in space and time and Euler angles around the axes (x, y, z, roll, yaw, pitch). Here's where the fun starts:
+The 6DoF example is very handy in that it only needs a file with points in space (displacement realtive to an origin) and time and Euler angles around the axes (in total per line (x, y, z), (roll, yaw, pitch) ). Here's where the fun starts:
 
 There is a Python library called 'fastf1'. It offers access to a database of Formula 1 data, we extract the fastest qualifying lap at the Austrian Grand Prix 2021. Verstappen's lap was approx. 63.72s,
 we have access to positional data too. From this we calculate the Euler angles, and the position itself will do as displacement data if we subtract the first position (this gives us (0 0 0) as our first

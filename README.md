@@ -29,17 +29,17 @@ Let's take a brief look at an alpha.fuel result:
 
 So, what is the use of such a simulation? With it, we may gather information about 
 
--) where to place pump inlets, 
+-) where to place pump inlets
 
--) forces on the hull of the tank, 
+-) forces on the hull of the tank (here: quite substantial) 
 
 -) amount of air/gas swirled into the fuel
 
--) is a fuel/gas separator needed
+-) is a fuel/gas separator needed (here: yes)
 
--) is a foam needed
+-) is a foam needed (here: yes)
 
--) where to put additional baffles
+-) where to put additional baffles (here: if no foam, additional baffles along both axis)
 
 -) does the tank shape create any problems
 

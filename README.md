@@ -47,7 +47,7 @@ So, what is the use of such a simulation? With it, we may gather information abo
 
 -) etc.
 
-The video shared is a demo, as the full simulation of the whole circuit is still running.
+The video shared is a demo, as the full simulation of the whole circuit is still running. The translation of the fuel tank is not shown, only the rotation.
 
 emefff@gmx.at
 
